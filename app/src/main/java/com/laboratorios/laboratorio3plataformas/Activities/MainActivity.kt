@@ -5,9 +5,11 @@ import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.laboratorios.laboratorio3plataformas.R
 import com.laboratorios.laboratorio3plataformas.databinding.ActivityMainBinding
+import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +23,14 @@ class MainActivity : AppCompatActivity() {
         binding.txtInfo.text = getString(R.string.infoEdad)
         binding.txtInfo.visibility = View.GONE
         botones()
+
+        try{
+            var comentario = intent.extras?.getString("comentario")
+            if (comentario!!.isNotEmpty()){
+                Toast.makeText(this,"Comentario: "+comentario,Toast.LENGTH_LONG).show()
+            }
+
+        }catch (e:Exception){ }
     }
 
     fun botones(){
@@ -57,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this,InfoActivity::class.java)
         intent.putExtra("tipo",tipo)
         startActivity(intent)
+        finish()
     }
 
 }

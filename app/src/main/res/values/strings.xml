@@ -41,4 +41,59 @@
 
     </string>
     <string name="comentar">Comentar</string>
+
+    <string name="titulo">Corona Virus</string>
+
+    <string name="sub1">
+        Información general sobre el virus, formas de contagio
+    </string>
+    <string name="sub2">Información sobre los síntomas que se podrían presentar al contraerlo</string>
+    <string name="sub3">Recomendaciones si se contrae el virus</string>
+
+    <string name="desc1">
+        Los coronavirus (CoV) son una amplia familia de virus que pueden causar diversas afecciones, desde el
+        resfriado común hasta enfermedades más graves, como ocurre con el coronavirus causante del síndrome
+        respiratorio de Oriente Medio (MERS-CoV) y el que ocasiona el síndrome respiratorio agudo severo (SRAS-CoV).
+        Un nuevo coronavirus es una nueva cepa de coronavirus que no se había encontrado antes en el ser humano.\n\n
+
+        Los coronavirus se pueden contagiar de los animales a las personas (transmisión zoonótica). De acuerdo con
+        estudios exhaustivos al respecto, sabemos que el SRAS-CoV se transmitió de la civeta al ser humano y que se ha
+        producido transmisión del MERS-CoV del dromedario al ser humano. Además, se sabe que hay otros coronavirus
+        circulando entre animales, que todavía no han infectado al ser humano.
+    </string>
+    
+    <string name="desc2">
+        El COVID-19 se caracteriza por síntomas leves, como, dolor de garganta,
+        tos y fiebre. La enfermedad puede ser más grave en algunas personas y
+        provocar neumonía o dificultades respiratorias.\n\n
+
+        Más raramente puede ser mortal. Las personas de edad avanzada y las personas con
+        otras afecciones médicas (como asma, diabetes o cardiopatías) pueden ser más vulnerables
+        y enfermar de gravedad.
+
+    </string>
+
+
+    <string name="desc3">
+        Muchas personas que tienen coronavirus no permanecerán en un hospital y se
+        quedarán aisladas en casa. Si presentas todos los síntomas del virus, pero no te has hecho
+        la prueba, debes asumir que lo tienes y tomar precauciones.\n\n
+
+        Cuidar a alguien con síntomas de coronavirus, de leves a moderados, es casi como cuidar a una
+        persona con gripe. Proporciónale cuidados paliativos, líquidos, sopas y analgésicos, y haz que
+        se tomen la temperatura con regularidad. Si una persona está demasiado enferma o débil para comer,
+        beber o ir al baño, llama a un médico. La Organización Mundial de la Salud tiene lineamientos de
+        cuidados en casa para pacientes con casos sospechosos o confirmados de coronavirus.\n\n
+
+        ¡Sí! El paciente debe estar aislado en una habitación separada sin contacto con el resto de la casa, o
+        contacto mínimo (incluyendo mascotas), además de que deberá usar un baño aparte, de ser posible. En la
+        mayoría de los casos, una persona enferma se sentirá muy mal, pero podrá levantar las bandejas de comida
+        que le dejen en la puerta y desinfectar un baño compartido después de usarlo. (En el caso de los niños,
+        esto quizá no sea posible). Si tienes cubrebocas en casa, tanto el paciente como el cuidador deberán utilizar las
+        cuando estén en contacto entre sí.\n\n
+
+        Asegúrate de que los espacios compartidos en la casa estén bien ventilados, puedes encender el aire acondicionado
+        o abrir una ventana. No compartas trastes, toallas ni ropa de cama con la persona enferma.
+
+    </string>
 </resources>
