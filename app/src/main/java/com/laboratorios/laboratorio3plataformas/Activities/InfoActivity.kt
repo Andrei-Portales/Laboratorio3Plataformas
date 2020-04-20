@@ -1,6 +1,5 @@
 package com.laboratorios.laboratorio3plataformas.Activities
 
-import android.app.Activity
 import android.content.Intent
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
@@ -31,10 +30,23 @@ class InfoActivity : AppCompatActivity() {
 
     fun crear(tipo:Int){
         when(tipo){
-            0 -> topic = Topic(getString(R.string.titulo),getString(R.string.sub1),getString(R.string.desc1))
-            1 ->  topic = Topic(getString(R.string.titulo),getString(R.string.sub2),getString(R.string.desc2))
-            2 ->  topic = Topic(getString(R.string.titulo),getString(R.string.sub3),getString(R.string.desc3))
-            else -> topic = Topic("","","")
+            0 -> topic = Topic(
+                getString(R.string.titulo),
+                getString(R.string.sub1),
+                getString(R.string.desc1)
+            )
+            1 ->  topic = Topic(
+                getString(R.string.titulo),
+                getString(R.string.sub2),
+                getString(R.string.desc2)
+            )
+            2 ->  topic = Topic(
+                getString(R.string.titulo),
+                getString(R.string.sub3),
+                getString(R.string.desc3)
+            )
+            else -> topic =
+                Topic("", "", "")
         }
         binding.topic = topic
     }
