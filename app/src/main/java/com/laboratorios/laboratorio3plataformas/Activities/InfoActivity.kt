@@ -66,6 +66,6 @@ class InfoActivity : AppCompatActivity() {
         var intent = Intent(this, MainActivity::class.java)
         intent.putExtra("comentario",comentario)
         startActivity(intent)
-        finish()
+
     }
 }

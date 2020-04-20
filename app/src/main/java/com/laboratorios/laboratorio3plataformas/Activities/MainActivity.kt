@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this,InfoActivity::class.java)
         intent.putExtra("tipo",tipo)
         startActivity(intent)
-        finish()
+
     }
 
 }
